@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== Remixicons ===============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <!--=============== Swiper Css ===============-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+
+    <!--=============== Css ===============-->
+    <link rel="stylesheet" href="website/style.css" />
+    <link rel="stylesheet" href="website/color-1.css" />
+
+    <!--=============== Skin Colors ===============-->
+    <link
+      rel="stylesheet"
+      href="assets/css/skins/color-1.css"
+      class="alternate-style"
+      title="color-1"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      href="assets/css/skins/color-2.css"
+      class="alternate-style"
+      title="color-2"
+      disabled
+    />
+
+    <title>Portfolio Website</title>
+  </head>
+  <body>
+    <!--=============== Header ===============-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+
+            <li>
+              <a href="#home" class="nav__link">Home</a>
+            </li>
+
+            <li>
+              <a href="#home" class="nav__link active-link">Hello</a>
+            </li>
+
+            <li>
+              <a href="#abilities" class="nav__link">Abilities</a>
+            </li>
+
+            <li>
+              <a href="#resume" class="nav__link">Resume</a>
+            </li>
+
+            <li>
+              <a href="#portfolio" class="nav__link">Portfolio</a>
+            </li>
+
+            <li>
+              <a href="#certifications" class="nav__link">Certificates</a>
+            </li>
+
+            <li>
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+
+          </ul>
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-line"></i>
+          </div>
+        </div>
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-menu-3-line"></i>
+        </div>
+      </nav>
+    </header>
+
+    <!--=============== Main ===============-->
+    <main class="main">
+
+      <!--=============== Home ===============-->
+      <section class="home" id="home">
+        <div class="home__container container grid">
+          <img src="assets/img/profile.jpg" alt="Profile Picture" class="home__img">
+
+          <div class="home__data">
+            <h1 class="home__title">Erik Shapka</h1>
+            <p class="home_work">Aspiring Software Engineer</p>
+            <dl class="home__list">
+              <dt>AGE:</dt>
+              <dd>21</dd>
+              <dt>PHONE:</dt>
+              <dd>+1(656)200-1727</dd>
+              <dt>EMAIL:</dt>
+              <dd>erikshapka7@gmail.com</dd>
+              <dt>LOCATED:</dt>
+              <dd>Tampa, Florida</dd>
+            </dl>
+            <div class="home__social">
+              <a href="https://github.com/shapkaerik1" target="_blank" class="home__social-link"><i class="ri-github-fill"></i></a>
+              <a href="https://www.linkedin.com/in/erik-shapka/" target="_blank" class="home__social-link"><i class="ri-linkedin-box-fill"></i></a>
+              <a href="https://www.instagram.com/erikshapka1/" target="_blank" class="home__social-link"><i class="ri-instagram-line"></i></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!--=============== Hello ===============-->
+      <section class="hello section container">
+
+
+        <h2 class="section__title">Hello_</h2>
+
+        <p class="hello__details text-lg">
+          I'm an aspiring Software Engineer in my third year of studies,
+          looking to advance
+          my interests in the field of Computer Science-from concepts to developments
+          of Artificial Intelligence.
+          Skilled in web development, software development,and interested in machine learning
+          and AI.
+          Fast learner,hard worker
+          and team player who is proeficient in an array of languages and tools.
+        </p>
+
+        <a href="assets/img/ESHResume.pdf"
+           class="button button--flex text-sm"><i class="ri-download-2-line"></i>DOWNLOAD RESUME</a>
+      </section>
+
+      <!--=============== Services ===============-->
+      <section class="services section container" id="abilities">
+        <h2 class="section__title">Abilities_</h2>
+
+        <!-- One single container for all service items -->
+        <div class="services--container grid">
+          <div class="services__item">
+            <div class="icon__box">
+              <img src="assets/img/web-design.png" alt="" class="services__icon" />
+              <div class="services__dot">
+                <span class="dot"></span>
+              </div>
+            </div>
+            <h3 class="services__title text-lg">Web Design</h3>
+            <p class="service__detail">
+              I am an passionate web designer.I believe that my creativity and simplicity produces great designs.
+            </p>
+          </div>
+
+          <div class="services__item">
+            <div class="icon__box">
+              <img src="assets/img/laptop.png" alt="" class="services__icon" />
+              <div class="services__dot">
+                <span class="dot"></span>
+              </div>
+            </div>
+            <h3 class="services__title text-lg">Web Development</h3>
+            <p class="service__detail">
+              My desire for expressionism and coding makes me like Web Development.
+            </p>
+          </div>
+
+          <div class="services__item">
+            <div class="icon__box">
+              <img src="assets/img/verified.png" alt="" class="services__icon" />
+              <div class="services__dot">
+                <span class="dot"></span>
+              </div>
+            </div>
+            <h3 class="services__title text-lg">Creative Design</h3>
+            <p class="service__detail">
+              From using Figma,as a design tool I tend to care a lot about the user interface.
+            </p>
+          </div>
+
+          <div class="services__item">
+            <div class="icon__box">
+              <img src="assets/img/web-design.png" alt="" class="services__icon" />
+              <div class="services__dot">
+                <span class="dot"></span>
+              </div>
+            </div>
+            <h3 class="services__title text-lg">Responsive Design</h3>
+            <p class="service__detail">
+              Design and responsiveness go hand in hand.Therefore UX is also an essential part of my work.
+            </p>
+          </div>
+
+          <div class="services__item">
+            <div class="icon__box">
+              <img src="assets/img/verified.png" alt="" class="services__icon" />
+              <div class="services__dot">
+                <span class="dot"></span>
+              </div>
+            </div>
+            <h3 class="services__title text-lg">Branding Identity</h3>
+            <p class="service__detail">
+               Alongside my passion for Computer Science,my experience in branding is expressed as my experience of COO at BLUE GALAXY.
+            </p>
+          </div>
+
+          <div class="services__item">
+            <div class="icon__box">
+              <img src="assets/img/operator.png" alt="" class="services__icon" />
+              <div class="services__dot">
+                <span class="dot"></span>
+              </div>
+            </div>
+            <h3 class="services__title text-lg">Communication</h3>
+            <p class="service__detail">
+              To come up with a great product, I am a keen believer that open communication is key to success.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!--=============== Resume ===============-->
+      <section class="section container" id="resume">
+        <h2 class="section__title">Resume_</h2>
+
+        <div class="resume__container grid">
+          <!-- Education Section -->
+          <div class="resume__data">
+            <h3 class="resume__title text-sm">EDUCATION</h3>
+
+            <div class="resume__item">
+              <h3 class="resume__subtitle text-sm">UNIVERSITY OF SOUTH FLORIDA</h3>
+              <p class="resume__date text-sm">2022-2026</p>
+              <p class="resume__description text-sm">Bachelor of Computer Science</p>
+            </div>
+
+            <div class="resume__item">
+              <h3 class="resume__subtitle text-sm">SAINT LEO UNIVERSITY</h3>
+              <p class="resume__date text-sm">2021-2022</p>
+              <p class="resume__description text-sm">Bachelor of Computer Science</p>
+            </div>
+
+            <div class="resume__item">
+              <h3 class="resume__subtitle text-sm">A.Z CAJUPI HIGH SCHOOL TIRANA,ALBANIA</h3>
+              <p class="resume__date text-sm">2018-2021</p>
+              <p class="resume__description text-sm">High School Diploma</p>
+            </div>
+          </div>
+
+          <!-- Employment Section -->
+          <div class="resume__data">
+            <h3 class="resume__title text-sm">EMPLOYMENT</h3>
+
+            <div class="resume__item">
+              <h3 class="resume__subtitle text-sm">SUBCOM S.R.L  MILANO,ITALY</h3>
+              <p class="resume__date text-sm">May 2024- August 2024</p>
+              <p class="resume__description text-sm">Software Developer</p>
+            </div>
+
+            <div class="resume__item">
+              <h3 class="resume__subtitle text-sm">SAINT LEO UNIVERSITY  SAINT LEO,FLORIDA</h3>
+              <p class="resume__date text-sm"> August 2021- May 2022</p>
+              <p class="resume__description text-sm">IT Department Front Desk Assistant</p>
+            </div>
+
+            <div class="resume__item">
+              <h3 class="resume__subtitle text-sm">BLUE GALAXY SHP.P.K TIRANA,ALBANIA</h3>
+              <p class="resume__date text-sm">2020-Present</p>
+              <p class="resume__description text-sm">CO-FOUNDER & COO</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--=============== Skills ===============-->
+      <section class="section container">
+        <h2 class="section__title">Skills_</h2>
+
+        <div class="skills__container grid">
+
+          <!-- FRONTEND Section -->
+          <div class="skills__content">
+            <h3 class="skills__title text-sm">FRONTEND</h3>
+            <div class="skills__list grid">
+
+              <div class="skills__data">
+                <div class="skills_titles">
+                  <p class="skills__name text-sm">HTML</p>
+                  <span class="skills__number text-sm">90%</span>
+                </div>
+                <div class="skills__bar">
+                  <span class="skills__percentage" style="width: 90%;"></span>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills_titles">
+                  <p class="skills__name text-sm">CSS</p>
+                  <span class="skills__number text-sm">80%</span>
+                </div>
+                <div class="skills__bar">
+                  <span class="skills__percentage" style="width: 80%;"></span>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills_titles">
+                  <p class="skills__name text-sm">Javascript</p>
+                  <span class="skills__number text-sm">50%</span>
+                </div>
+                <div class="skills__bar">
+                  <span class="skills__percentage" style="width: 50%;"></span>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills_titles">
+                  <p class="skills__name text-sm">PHP</p>
+                  <span class="skills__number text-sm">70%</span>
+                </div>
+                <div class="skills__bar">
+                  <span class="skills__percentage" style="width: 70%;"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- BACKEND Section -->
+          <div class="skills__content">
+            <h3 class="skills__title text-sm">BACKEND</h3>
+            <div class="skills__list grid">
+
+              <div class="skills__data">
+                <div class="skills_titles">
+                  <p class="skills__name text-sm">C</p>
+                  <span class="skills__number text-sm">85%</span>
+                </div>
+                <div class="skills__bar">
+                  <span class="skills__percentage" style="width: 85%;"></span>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills_titles">
+                  <p class="skills__name text-sm">Python</p>
+                  <span class="skills__number text-sm">75%</span>
+                </div>
+                <div class="skills__bar">
+                  <span class="skills__percentage" style="width: 75%;"></span>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills_titles">
+                  <p class="skills__name text-sm">C++</p>
+                  <span class="skills__number text-sm">65%</span>
+                </div>
+                <div class="skills__bar">
+                  <span class="skills__percentage" style="width: 65%;"></span>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills_titles">
+                  <p class="skills__name text-sm">MySQL</p>
+                  <span class="skills__number text-sm">65%</span>
+                </div>
+                <div class="skills__bar">
+                  <span class="skills__percentage" style="width: 65%;"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== Projects ===============-->
+      <section class="work section container" id="portfolio">
+        <h2 class="section__title">Work_</h2>
+        <div class="project__categories">
+          <button class="category__btn text-xs active-work" data-filter="all">ALL</button>
+          <button class="category__btn text-xs" data-filter=".app">SOFTWARE APPS</button>
+          <button class="category__btn text-xs" data-filter=".web">WEBSITES</button>
+        </div>
+        <div class="projects__container grid">
+
+          <!-- Project 1 -->
+          <div class="project__item grid mix web">
+            <img src="assets/img/sportsbook.png" alt="Sports Booking" class="project__img">
+            <div class="project__data">
+              <h3 class="project__title text-lg">Sports Booking</h3>
+              <p class="project_description">Designed and developed a user-friendly sports booking webpage using HTML, CSS, and JavaScript, enabling users
+                to reserve their favorite sports venues, resulting in a 30% increase in online bookings within the first month.
+                Implemented responsive design techniques, ensuring seamless access across devices, which improved mobile user
+                engagement by 20%.</p>
+              <h4 class="project_stack text-xs">USED STACK:</h4>
+              <ul class="tags text-sm">
+                <li class="tags__item">HTML5</li>
+                <li class="tags__item">CSS3</li>
+                <li class="tags__item">JavaScript</li>
+                <li class="tags__item">MySQL</li>
+              </ul>
+              <a href="https://github.com/shapkaerik1/sportsbookwebESH" class="project__link">View Project</a>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="project__item grid mix app">
+            <img src="assets/img/busreservation.jpeg" alt="Bus Reservation System" class="project__img">
+            <div class="project__data">
+              <h3 class="project__title text-lg">Bus Reservation System</h3>
+              <p class="project_description">Developed a reservation system for bus companies using C and C++. Optimized the menu and user actions.</p>
+              <h4 class="project_stack text-xs">USED STACK:</h4>
+              <ul class="tags text-sm">
+                <li class="tags__item">C</li>
+                <li class="tags__item">C++</li>
+              </ul>
+              <a href="https://github.com/shapkaerik1/CProjects/blob/main/bus%20reservation%20system.cpp" class="project__link">View Project</a>
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="project__item grid mix web">
+            <img src="assets/img/wbp.jpeg" alt="Portfolio Website" class="project__img">
+            <div class="project__data">
+              <h3 class="project__title text-lg">Portfolio Website</h3>
+              <p class="project_description">Created a visually appealing portfolio website showcasing projects, skills, and achievements. Integrated animations for an enhanced user experience.</p>
+              <h4 class="project_stack text-xs">USED STACK:</h4>
+              <ul class="tags text-sm">
+                <li class="tags__item">HTML5</li>
+                <li class="tags__item">CSS3</li>
+                <li class="tags__item">JavaScript</li>
+              </ul>
+              <a href="https://erikshapka.com" class="project__link">View Project</a>
+            </div>
+          </div>
+
+          <!-- Project 4 -->
+          <div class="project__item grid mix app">
+            <img src="assets/img/studentmanagement.jpeg" alt="Student Database Management" class="project__img">
+            <div class="project__data">
+              <h3 class="project__title text-lg">Student Database Management</h3>
+              <p class="project_description">Built a student database management system that allowed the office of registrar to perform multiple actions on the student database system.</p>
+              <h4 class="project_stack text-xs">USED STACK:</h4>
+              <ul class="tags text-sm">
+                <li class="tags__item">C</li>
+                <li class="tags__item">C++</li>
+              </ul>
+              <a href="https://github.com/shapkaerik1/CProjects/blob/main/student%20database%20management%20project.cpp" class="project__link">View Project</a>
+            </div>
+          </div>
+
+          <!-- Project 5 -->
+          <div class="project__item grid mix app">
+            <img src="assets/img/casinogame.jpeg" alt="Casino Game" class="project__img">
+            <div class="project__data">
+              <h3 class="project__title text-lg">Casino Game</h3>
+              <p class="project_description">Created an interactive casino game with a user-friendly interface and interesting forms of enjoyment.</p>
+              <h4 class="project_stack text-xs">USED STACK:</h4>
+              <ul class="tags text-sm">
+                <li class="tags__item">C</li>
+                <li class="tags__item">C++</li>
+              </ul>
+              <a href="https://github.com/shapkaerik1/CProjects/blob/main/Casino.cpp" class="project__link">View Project</a>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+
+      <!--===============Certifications ===============-->
+      <section class="certifications section container" id="certifications">
+        <h2 class="section__title">Latest Certifications</h2>
+
+        <div class="certifications__container">
+
+          <!-- Certification 1 -->
+          <div class="certification">
+            <img src="assets/img/Certificate2_page-0001.jpg" alt="Certification 1" class="certification__img">
+            <div class="certification__info">
+              <h3 class="certification__title">Certificate of Internship</h3>
+              <p class="certification__date">Issued: August 2024</p>
+              <p class="certification__description">Demostrates my summer work experience at Subcom</p>
+            </div>
+          </div>
+
+          <!-- Certification 2 -->
+          <div class="certification">
+            <img src="assets/img/IMG_5566.jpeg" alt="" class="certification__img">
+            <div class="certification__info">
+              <h3 class="certification__title">C/C++ Certification</h3>
+              <p class="certification__date">Issued:August 2024</p>
+              <p class="certification__description">Showcases proficiency in C and C++
+              Awarded by Albanian ICT Academy</p>
+            </div>
+          </div>
+
+          <!-- Certification 3 -->
+          <div class="certification">
+            <img src="assets/img/OAcert.JPG" alt="Certification 3" class="certification__img">
+            <div class="certification__info">
+              <h3 class="certification__title">Outdoor Ambassador</h3>
+              <p class="certification__date">Issued: June 2021</p>
+              <p class="certification__description">Presented to the members of the organization based on their contribution
+              Awarded by the Major of Tirana and the U.S Ambassador in Albania.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== Contact ===============-->
+
+      <section id="contact" class="section container">
+        <h2 class="section__title">Get in Touch</h2>
+        <div class="contact-form-container">
+          <form id="contactForm" class="contact-form">
+            <div class="input-group">
+              <label for="name" class="input-label">Name</label>
+              <input type="text" id="name" name="name" class="input" placeholder="Your Name" required>
+              <span id="nameError" class="error-message"></span>
+            </div>
+            <div class="input-group">
+              <label for="email" class="input-label">Email</label>
+              <input type="email" id="email" name="email" class="input" placeholder="Your Email" required>
+              <span id="emailError" class="error-message"></span>
+            </div>
+            <div class="input-group">
+              <label for="message" class="input-label">Message</label>
+              <textarea id="message" name="message" class="input" placeholder="Your Message" required></textarea>
+              <span id="messageError" class="error-message"></span>
+            </div>
+            <button type="submit" class="submit-btn">Send Message</button>
+            <div id="successMessage" class="success-message"></div>
+          </form>
+        </div>
+      </section>
+
+    </main>
+
+    <!--=============== Style Switcher ===============-->
+    <div class="style__switcher"></div>
+
+    <!--=============== Mixitup ===============-->
+    <script src="assets/js/mixitupmin.js"></script>
+
+    <!--=============== Swiper Js ===============-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <!--=============== Email Js ===============-->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+
+    <!--=============== Js ===============-->
+    <script src="assets/js/main.js"></script>
+
+    <!--=============== Common ===============-->
+    <script src="assets/js/common.js"></script>
+    <footer class="footer">
+      <p class="trademark">© 2025 Erik Shapka. TM Rights Reserved.</p>
+    </footer>
+  </body>
+</html>
